@@ -1,4 +1,4 @@
-﻿# ✈️ TravelAssist AI  
+﻿#  TravelAssist AI  
 ### RAG-Based Travel Support Chatbot
 
 TravelAssist AI is a Retrieval-Augmented Generation (RAG) powered chatbot designed to answer travel-related queries using a structured FAQ knowledge base.
@@ -7,7 +7,7 @@ This project demonstrates how to build a production-style AI application by comb
 
 ---
 
-## 🚀 Overview
+##  Overview
 
 Traditional chatbots often rely purely on model training data, which can lead to hallucinations and outdated responses.
 
@@ -20,7 +20,7 @@ TravelAssist AI solves this by:
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 
 User Query
@@ -40,7 +40,7 @@ Final Grounded Response
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 ### 🔹 Embeddings
 - Model: `all-MiniLM-L6-v2`
@@ -65,7 +65,7 @@ Final Grounded Response
 ---
 
 
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 TravelAssist-AI/
@@ -88,7 +88,7 @@ TravelAssist-AI/
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
 - Semantic search using embeddings
 - FAISS-based vector retrieval
@@ -100,7 +100,7 @@ TravelAssist-AI/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1️⃣ Create Virtual Environment
 
@@ -140,10 +140,6 @@ python rag_pipeline.py
 streamlit run app.py
 ```
 
-Open:
-
-http://localhost:8501
-
 🌍 Deployment
 
 This project can be deployed using:
@@ -153,7 +149,7 @@ This project can be deployed using:
 - Docker container
 - AWS / GCP / Azure
 
-📊 Evaluation Metrics
+ Evaluation Metrics
 
 The system can be evaluated using:
 
@@ -169,14 +165,14 @@ The system can be evaluated using:
 - Escalation Rate
 - Human handoffs / Total conversations
 
-🧪 Example Queries
+ Example Queries
 
 - How long does refund take?
 - Do I need a visa for Europe?
 - What is baggage allowance?
 - Can I receive refund as travel credit?
 
-🔐 Design Considerations
+ Design Considerations
 
 - Context-grounded prompting
 - Controlled generation parameters
@@ -184,19 +180,7 @@ The system can be evaluated using:
 - Efficient chunking strategy
 - Clean modular architecture
 
-🚀 Future Enhancements
 
-- Hybrid search (keyword + vector)
-- Re-ranking models
-- Confidence scoring
-- Conversation memory integration
-- Logging and monitoring
-- REST API service layer
-- Docker containerization
-
-📌 Purpose
-
-This project demonstrates:
 
 - End-to-end AI system design
 - Practical RAG implementation
