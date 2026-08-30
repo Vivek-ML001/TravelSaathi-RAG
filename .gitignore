@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Vector DB files
+faiss_index.index
+chunks.pkl
+
+# OS
+.DS_Store
+Thumbs.db
