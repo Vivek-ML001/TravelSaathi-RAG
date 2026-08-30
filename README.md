@@ -1,4 +1,5 @@
-﻿#  TravelAssist AI  
+﻿#  Travel_Saathi
+ 
 ### RAG-Based Travel Support Chatbot
 
 TravelAssist AI is a Retrieval-Augmented Generation (RAG) powered chatbot designed to answer travel-related queries using a structured FAQ knowledge base.
